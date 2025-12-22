@@ -1,9 +1,8 @@
-node_modules
-.git
-.vscode
-Downloads
-Documents
-Desktop
-*.zip
-*.mp4
-*.jpg
+*
+!index.html
+!detay.html
+!style.css
+!script.js
+!Dockerfile
+!README.md
+!.dockerignore

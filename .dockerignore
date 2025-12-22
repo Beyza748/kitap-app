@@ -1,0 +1,9 @@
+node_modules
+.git
+.vscode
+Downloads
+Documents
+Desktop
+*.zip
+*.mp4
+*.jpg

@@ -1,19 +1,16 @@
 <!DOCTYPE html>
-<html lang="tr">
+<html>
 <head>
-  <meta charset="UTF-8">
-  <title>📚 Kitap Arama</title>
-  <link rel="stylesheet" href="style.css">
+    <title>Kitap Arama</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
 </head>
 <body>
+    <h1>Kitap Arama Uygulaması</h1>
+    <input type="text" id="query" placeholder="Kitap adı girin">
+    <button onclick="search()">Ara</button>
+    <ul id="results"></ul>
 
-<h1>📖 Kitap Ara</h1>
-
-<input id="searchInput" placeholder="Kitap adı gir..." />
-<button onclick="searchBooks()">Ara</button>
-
-<div id="resultList"></div>
-
-<script src="script.js"></script>
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
 </body>
 </html>
+
